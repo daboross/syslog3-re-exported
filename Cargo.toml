@@ -1,0 +1,13 @@
+[package]
+name = "syslog3"
+version = "3.0.0"
+authors = ["daboross@daboross.net"]
+description = "Shim library re-exporting syslog::* from syslog version 3.0"
+license = "MIT"
+repository = "https://github.com/daboross/syslog3-re-exported"
+
+[dependencies]
+syslog = "3"
+
+[features]
+nightly = ["syslog/nightly"]
